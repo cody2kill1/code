@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traveler's Haven</title>
+  <style>
+    /* Reset CSS */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-image: url('/home/aaaa/Downloads/ST_ZoomBackground_Beach03.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      width: 200px;
+      top: 100%;
+      left: 0;
+      padding: 10px 0;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      display: block;
+      margin: 0;
+    }
+
+    nav ul li ul li a {
+      display: block;
+      padding: 8px 20px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: normal;
+    }
+
+    section {
+      padding: 20px 0;
+      background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to sections for better readability */
+      border-radius: 10px; /* Add rounded corners to sections */
+      margin-bottom: 20px; /* Add some spacing between sections */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Traveler's Haven</h1>
+    <p>Your ultimate guide to adventurous travel</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Destinations</a>
+        <ul>
+          <li><a href="https://www.lonelyplanet.com/destinations">Lonely Planet Destinations</a></li>
+          <li><a href="https://www.tripadvisor.com/Travel_Guide-c1-World.html">TripAdvisor Travel Guide</a></li>
+          <li><a href="https://www.travelandleisure.com/travel-guide">Travel + Leisure Guides</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Travel Tips</a>
+        <ul>
+          <li><a href="https://www.nomadicmatt.com/travel-tips">Nomadic Matt's Travel Tips</a></li>
+          <li><a href="https://www.ricksteves.com/travel-tips">Rick Steves' Travel Tips</a></li>
+          <li><a href="https://www.smartertravel.com/10-best-travel-tips">SmarterTravel's Best Travel Tips</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Budgeting</a>
+        <ul>
+          <li><a href="https://www.thebrokebackpacker.com/budget-travel">The Broke Backpacker Budget Travel</a></li>
+          <li><a href="https://www.nomadwallet.com">Nomad Wallet</a></li>
+          <li><a href="https://www.budgetyourtrip.com">Budget Your Trip</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Accommodation</a>
+        <ul>
+          <li><a href="https://www.booking.com">Booking.com</a></li>
+          <li><a href="https://www.airbnb.com">Airbnb</a></li>
+          <li><a href="https://www.hostelworld.com">Hostelworld</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Share Your Experience</a>
+        <ul>
+          <li><a href="https://www.travelblog.org">Travel Blog</a></li>
+          <li><a href="https://www.tripoto.com">Tripoto</a></li>
+          <li><a href="https://www.travellerspoint.com">Travellerspoint</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Travel Products</a>
+        <ul>
+          <li><a href="https://www.rei.com">REI</a></li>
+          <li><a href="https://www.amazon.com">Amazon Travel Gear</a></li>
+          <li><a href="https://www.ebags.com">eBags</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Welcome to Traveler's Haven!</h2>
+      <p>Discover your next adventure with us. Whether you're seeking breathtaking destinations, expert travel tips, budgeting advice, cozy accommodations, or a platform to share your experiences, Traveler's Haven has everything you need.</p>
+    </section>
+
+    <section>
+      <h2>Featured Destinations</h2>
+      <p>Explore some of the most exciting destinations around the globe:</p>
+      <ul>
+        <li><a href="https://www.lonelyplanet.com/france/paris">Paris, France</a></li>
+        <li><a href="https://www.lonelyplanet.com/japan/tokyo">Tokyo, Japan</a></li>
+        <li><a href="https://www.lonelyplanet.com/usa/new-york-city">New York City, USA</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Top Travel Tips</h2>
+      <p>Get insider advice from seasoned travelers:</p>
+      <ul>
+        <li><a href="https://www.nomadicmatt.com/travel-tips/packing-lists/">Packing Essentials</a></li>
+        <li><a href="https://www.smartertravel.com/tips-airport-survival">Navigating Airports</a></li>
+        <li><a href="https://www.travelandleisure.com/travel-tips/travel-safety-tips">Staying Safe Abroad</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Budget Traveling</h2>
+      <p>Make the most of your money with these budgeting tips:</p>
+      <ul>
+        <li><a href="https://www.thebrokebackpacker.com/how-to-save-money-for-travel">Saving on Accommodations</a></li>
+        <li><a href="https://www.nomadicmatt.com/travel-blogs/how-to-eat-cheaply-anywhere-in-the-world/">Eating Cheaply While Traveling</a></li>
+        <li><a href="https://www.nomadicmatt.com/travel-tips/how-to-find-cheap-flights">Finding Discount Flights</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Share Your Experience</h2>
+      <p>Join our community and share your travel stories:</p>
+      <ul>
+        <li><a href="https://www.travelblog.org/journal/">Submit Your Own Story</a></li>
+        <li><a href="https://www.tripoto.com/trips/create">Upload Photos from Your Journey</a></li>
+        <li><a href="https://www.travellerspoint.com/blogs/">Read Blogs from Fellow Travelers</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Traveler's Haven. All rights reserved.</p>
+  </footer>
+</body>
+</html>
